@@ -1,0 +1,44 @@
+#Glossary
+Berikut adalah istilah-istilah yang digunakan dalam proyek ini:
+
+Container
+Elemen utama yang berfungsi sebagai wadah untuk semua elemen dalam aplikasi.
+
+Header
+Bagian yang menampilkan judul dan deskripsi aplikasi.
+
+Form Group
+Seksi yang mengelompokkan input dan label dalam satu kesatuan.
+
+Input Field
+Area tempat pengguna memasukkan jumlah mata uang yang akan dikonversi.
+
+Dropdown
+Menu tarik turun untuk memilih mata uang asal atau tujuan. Berisi kode mata uang dan deskripsinya.
+
+Swap Button
+Tombol untuk menukar mata uang asal dan tujuan.
+
+Convert Button
+Tombol untuk memulai proses konversi mata uang.
+
+Result Box
+Kotak yang menampilkan hasil konversi mata uang berdasarkan nilai tukar yang ditentukan.
+
+Hover Effect
+Efek visual yang muncul saat pengguna mengarahkan kursor ke tombol atau elemen tertentu.
+
+Rounded Corners
+Desain dengan sudut melengkung untuk elemen seperti tombol, kotak, dan dropdown.
+
+Shadow (Bayangan)
+Efek visual yang memberikan kesan dimensi pada elemen tertentu, seperti tombol dan container.
+
+Focus State
+Tampilan atau efek khusus pada elemen (seperti input atau dropdown) saat pengguna berinteraksi dengan elemen tersebut.
+
+Transition
+Efek animasi halus pada perubahan tampilan elemen, seperti warna atau ukuran.
+
+Responsive Design
+Desain yang secara otomatis menyesuaikan tata letak dan ukuran elemen agar sesuai dengan perangkat pengguna.
