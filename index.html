@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Currency Converter</h1>
+    </header>
+    
+    <form id="currencyForm">
+      <!-- Amount Input -->
+      <div class="form-group">
+        <label for="amount">Amount</label>
+        <input type="number" id="amount" placeholder="Enter amount" value="10.00" required>
+      </div>
+
+      <!-- From Currency -->
+      <div class="form-group">
+        <label for="fromCurrency">From</label>
+        <div class="input-group">
+          <select id="fromCurrency" required>
+            <option value="USD" selected>USD - US Dollar</option>
+            <option value="EUR">EUR - Euro</option>
+            <option value="GBP">GBP - British Pound</option>
+            <option value="IDR">IDR - Indonesian Rupiah</option>
+            <option value="JPY">JPY - Japanese Yen</option>
+            <option value="BRL">BRL - Brazilian Real</option>
+            <option value="KRW">KRW - South Korean Won</option>
+            <option value="AUD">AUD - Australian Dollar</option>
+            <option value="CAD">CAD - Canadian Dollar</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Swap Button -->
+      <div class="swap-group">
+        <button type="button" id="swapButton" aria-label="Swap Currencies">
+          <i class="fas fa-arrows-alt-v"></i>
+        </button>
+      </div>
+
+      <!-- To Currency -->
+      <div class="form-group">
+        <label for="toCurrency">To</label>
+        <div class="input-group">
+          <select id="toCurrency" required>
+            <option value="USD">USD - US Dollar</option>
+            <option value="EUR">EUR - Euro</option>
+            <option value="GBP">GBP - British Pound</option>
+            <option value="IDR" selected>IDR - Indonesian Rupiah</option>
+            <option value="JPY">JPY - Japanese Yen</option>
+            <option value="BRL">BRL - Brazilian Real</option>
+            <option value="KRW">KRW - South Korean Won</option>
+            <option value="AUD">AUD - Australian Dollar</option>
+            <option value="CAD">CAD - Canadian Dollar</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Result -->
+      <div id="result" class="result-box">
+        Result will appear here
+      </div>
+
+      <!-- Convert Button -->
+      <button type="button" id="convertButton" class="convert-button">Convert</button>
+    </form>
+    
+    <footer>
+      <p>&copy; Copyright 2025 Teggar Eka M.S. All Rights Reserved </p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
