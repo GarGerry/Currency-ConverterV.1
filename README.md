@@ -1,4 +1,4 @@
-Project Name: Currency Converter
+# **Project Name: Currency Converter** 
 Description:
 A web-based currency converter application that allows users to convert values between currencies in real-time. Exchange rate data is retrieved through integration with a reliable currency exchange API.
 
