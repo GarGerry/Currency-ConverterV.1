@@ -71,3 +71,7 @@ async function convertCurrency() {
     console.error(error);
   }
 }
+document.querySelectorAll('option').forEach(option => {
+  const flag = option.dataset.flag;
+  if (flag) option.innerHTML = `&#x1F1${flag.toUpperCase()}; ${option.innerText}`;
+});
