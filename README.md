@@ -38,4 +38,4 @@ Enhance user interaction with modern, responsive effects.**
 - **HTML5: For page structure.**
 - **CSS3: For application design and layout.**
 - **JavaScript (ES6+): For application logic, input validation, and API calls.**
-  - **REST API: For fetching real-time exchange rate data.**
+- **REST API: For fetching real-time exchange rate data.**
